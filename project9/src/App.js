@@ -9,6 +9,11 @@ import Achievements from './Pages/Achievements';
 import Certifications from './Pages/Certifications';
 import Hobbies from './Pages/Hobbies';
 import Experience from './Pages/Experience';
+import Contactme from './Pages/Contactme';
+import Projects from './Pages/Projects';
+import Workshops from './Pages/Workshops';
+
+
 function App() {
   return (
     <div className="App">
@@ -21,7 +26,10 @@ function App() {
         < Route path="/Certifications" element={<Certifications/>}/>
         < Route path="/Hobbies" element={<Hobbies/>}/>
         <Route path='/Experience' element={<Experience/>}/>
-        
+        < Route path="/Contactme" element={<Contactme/>}/>
+        < Route path="/Projects" element={<Projects/>}/>
+        < Route path="/Workshops" element={<Workshops/>}/>
+
       
         </Routes>
     </div>

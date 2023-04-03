@@ -1,7 +1,7 @@
 export default function Achievements(){
     return(
         <>
-        this is Sufiya Farooqi
+        This is the Achievements page
         </>
     )
 }
